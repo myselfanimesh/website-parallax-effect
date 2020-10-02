@@ -6,7 +6,7 @@ body{
     background-color: #ffffe0;
 }
 .first{
-    background-image: url('spacex.jpg');
+    background-image: url('rocket.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -53,9 +53,15 @@ h1{
     background-repeat: no-repeat;
     margin-left: 20px;
     float: left;
-    display: inline;
+    /* display: inline; */
     color: #ffffe0;
     text-align: center;
+   
+
+}
+
+.card:nth-child(1){
+   
 }
 .card p {
     margin-top: 100px;
@@ -68,4 +74,5 @@ footer{
     text-align: center;
     margin-top: -20px;
     margin-bottom: 20px;
+    
 }
